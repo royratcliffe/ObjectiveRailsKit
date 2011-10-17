@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782B15C7144C88750016B106 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B15C6144C88750016B106 /* Cocoa.framework */; };
+		782B15D1144C88750016B106 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782B15CF144C88750016B106 /* InfoPlist.strings */; };
+		782B15DD144C88750016B106 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B15DC144C88750016B106 /* SenTestingKit.framework */; };
+		782B15DE144C88750016B106 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B15C6144C88750016B106 /* Cocoa.framework */; };
+		782B15E1144C88750016B106 /* RailsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B15C3144C88750016B106 /* RailsKit.framework */; };
+		782B15E7144C88750016B106 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782B15E5144C88750016B106 /* InfoPlist.strings */; };
+		782B15EA144C88750016B106 /* RailsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15E9144C88750016B106 /* RailsKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782B15DF144C88750016B106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782B15B9144C88740016B106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782B15C2144C88750016B106;
+			remoteInfo = RailsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782B15C3144C88750016B106 /* RailsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RailsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782B15C6144C88750016B106 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		782B15C9144C88750016B106 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		782B15CA144C88750016B106 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		782B15CB144C88750016B106 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		782B15CE144C88750016B106 /* RailsKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RailsKit-Info.plist"; sourceTree = "<group>"; };
+		782B15D0144C88750016B106 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		782B15D2144C88750016B106 /* RailsKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RailsKit-Prefix.pch"; sourceTree = "<group>"; };
+		782B15DB144C88750016B106 /* RailsKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailsKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782B15DC144C88750016B106 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		782B15E4144C88750016B106 /* RailsKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RailsKitTests-Info.plist"; sourceTree = "<group>"; };
+		782B15E6144C88750016B106 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		782B15E8144C88750016B106 /* RailsKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RailsKitTests.h; sourceTree = "<group>"; };
+		782B15E9144C88750016B106 /* RailsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RailsKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782B15BF144C88750016B106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782B15C7144C88750016B106 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782B15D7144C88750016B106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782B15DD144C88750016B106 /* SenTestingKit.framework in Frameworks */,
+				782B15DE144C88750016B106 /* Cocoa.framework in Frameworks */,
+				782B15E1144C88750016B106 /* RailsKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782B15B7144C88740016B106 = {
+			isa = PBXGroup;
+			children = (
+				782B15CC144C88750016B106 /* RailsKit */,
+				782B15E2144C88750016B106 /* RailsKitTests */,
+				782B15C5144C88750016B106 /* Frameworks */,
+				782B15C4144C88750016B106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782B15C4144C88750016B106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782B15C3144C88750016B106 /* RailsKit.framework */,
+				782B15DB144C88750016B106 /* RailsKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782B15C5144C88750016B106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782B15C6144C88750016B106 /* Cocoa.framework */,
+				782B15DC144C88750016B106 /* SenTestingKit.framework */,
+				782B15C8144C88750016B106 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		782B15C8144C88750016B106 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782B15C9144C88750016B106 /* AppKit.framework */,
+				782B15CA144C88750016B106 /* CoreData.framework */,
+				782B15CB144C88750016B106 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		782B15CC144C88750016B106 /* RailsKit */ = {
+			isa = PBXGroup;
+			children = (
+				782B15CD144C88750016B106 /* Supporting Files */,
+			);
+			path = RailsKit;
+			sourceTree = "<group>";
+		};
+		782B15CD144C88750016B106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782B15CE144C88750016B106 /* RailsKit-Info.plist */,
+				782B15CF144C88750016B106 /* InfoPlist.strings */,
+				782B15D2144C88750016B106 /* RailsKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		782B15E2144C88750016B106 /* RailsKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				782B15E8144C88750016B106 /* RailsKitTests.h */,
+				782B15E9144C88750016B106 /* RailsKitTests.m */,
+				782B15E3144C88750016B106 /* Supporting Files */,
+			);
+			path = RailsKitTests;
+			sourceTree = "<group>";
+		};
+		782B15E3144C88750016B106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782B15E4144C88750016B106 /* RailsKitTests-Info.plist */,
+				782B15E5144C88750016B106 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		782B15C0144C88750016B106 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		782B15C2144C88750016B106 /* RailsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782B15ED144C88750016B106 /* Build configuration list for PBXNativeTarget "RailsKit" */;
+			buildPhases = (
+				782B15BE144C88750016B106 /* Sources */,
+				782B15BF144C88750016B106 /* Frameworks */,
+				782B15C0144C88750016B106 /* Headers */,
+				782B15C1144C88750016B106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RailsKit;
+			productName = RailsKit;
+			productReference = 782B15C3144C88750016B106 /* RailsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		782B15DA144C88750016B106 /* RailsKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782B15F0144C88750016B106 /* Build configuration list for PBXNativeTarget "RailsKitTests" */;
+			buildPhases = (
+				782B15D6144C88750016B106 /* Sources */,
+				782B15D7144C88750016B106 /* Frameworks */,
+				782B15D8144C88750016B106 /* Resources */,
+				782B15D9144C88750016B106 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782B15E0144C88750016B106 /* PBXTargetDependency */,
+			);
+			name = RailsKitTests;
+			productName = RailsKitTests;
+			productReference = 782B15DB144C88750016B106 /* RailsKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782B15B9144C88740016B106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
+			};
+			buildConfigurationList = 782B15BC144C88740016B106 /* Build configuration list for PBXProject "RailsKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 782B15B7144C88740016B106;
+			productRefGroup = 782B15C4144C88750016B106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782B15C2144C88750016B106 /* RailsKit */,
+				782B15DA144C88750016B106 /* RailsKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782B15C1144C88750016B106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782B15D1144C88750016B106 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782B15D8144C88750016B106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782B15E7144C88750016B106 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		782B15D9144C88750016B106 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782B15BE144C88750016B106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782B15D6144C88750016B106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782B15EA144C88750016B106 /* RailsKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782B15E0144C88750016B106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782B15C2144C88750016B106 /* RailsKit */;
+			targetProxy = 782B15DF144C88750016B106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782B15CF144C88750016B106 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782B15D0144C88750016B106 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		782B15E5144C88750016B106 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782B15E6144C88750016B106 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782B15EB144C88750016B106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		782B15EC144C88750016B106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		782B15EE144C88750016B106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RailsKit/RailsKit-Prefix.pch";
+				INFOPLIST_FILE = "RailsKit/RailsKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		782B15EF144C88750016B106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RailsKit/RailsKit-Prefix.pch";
+				INFOPLIST_FILE = "RailsKit/RailsKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		782B15F1144C88750016B106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RailsKit/RailsKit-Prefix.pch";
+				INFOPLIST_FILE = "RailsKitTests/RailsKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		782B15F2144C88750016B106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RailsKit/RailsKit-Prefix.pch";
+				INFOPLIST_FILE = "RailsKitTests/RailsKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782B15BC144C88740016B106 /* Build configuration list for PBXProject "RailsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782B15EB144C88750016B106 /* Debug */,
+				782B15EC144C88750016B106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782B15ED144C88750016B106 /* Build configuration list for PBXNativeTarget "RailsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782B15EE144C88750016B106 /* Debug */,
+				782B15EF144C88750016B106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		782B15F0144C88750016B106 /* Build configuration list for PBXNativeTarget "RailsKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782B15F1144C88750016B106 /* Debug */,
+				782B15F2144C88750016B106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782B15B9144C88740016B106 /* Project object */;
+}
