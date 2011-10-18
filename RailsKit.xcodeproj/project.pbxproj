@@ -635,6 +635,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RailsKit/RailsKit-Prefix.pch";
 				INFOPLIST_FILE = "RailsKit/RailsKit-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				OTHER_LDFLAGS = (
 					"-sub_umbrella",
 					ActiveResourceKit,
@@ -657,6 +658,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RailsKit/RailsKit-Prefix.pch";
 				INFOPLIST_FILE = "RailsKit/RailsKit-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				OTHER_LDFLAGS = (
 					"-sub_umbrella",
 					ActiveResourceKit,
