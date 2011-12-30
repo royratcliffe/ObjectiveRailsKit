@@ -192,8 +192,8 @@
 		782B15B7144C88740016B106 = {
 			isa = PBXGroup;
 			children = (
-				78E75926144C89A200F6B5A0 /* ActiveModelKit.xcodeproj */,
 				78E75929144C89A200F6B5A0 /* ActiveResourceKit.xcodeproj */,
+				78E75926144C89A200F6B5A0 /* ActiveModelKit.xcodeproj */,
 				78E7592C144C89A200F6B5A0 /* ActiveSupportKit.xcodeproj */,
 				782B15CC144C88750016B106 /* RailsKit */,
 				782B15E2144C88750016B106 /* RailsKitTests */,
