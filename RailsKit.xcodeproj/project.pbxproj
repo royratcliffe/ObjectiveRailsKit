@@ -275,7 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				78E7593F144C89A300F6B5A0 /* ActiveModelKit.framework */,
-				78E75941144C89A300F6B5A0 /* ActiveModelKitTests.octest */,
+				78E75941144C89A300F6B5A0 /* ActiveModelKitFrameworkTests.octest */,
 				78E75943144C89A300F6B5A0 /* libActiveModelKit.a */,
 				78E75945144C89A300F6B5A0 /* ActiveModelKitLibraryTests.octest */,
 			);
@@ -297,7 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				78E75957144C89A300F6B5A0 /* ActiveSupportKit.framework */,
-				78E75959144C89A300F6B5A0 /* ActiveSupportKitTests.octest */,
+				78E75959144C89A300F6B5A0 /* ActiveSupportKitFrameworkTests.octest */,
 				78E7595B144C89A300F6B5A0 /* libActiveSupportKit.a */,
 				78E7595D144C89A300F6B5A0 /* ActiveSupportKitLibraryTests.octest */,
 			);
@@ -364,7 +364,7 @@
 		782B15B9144C88740016B106 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
 			};
 			buildConfigurationList = 782B15BC144C88740016B106 /* Build configuration list for PBXProject "RailsKit" */;
@@ -407,10 +407,9 @@
 			remoteRef = 78E7593E144C89A300F6B5A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		78E75941144C89A300F6B5A0 /* ActiveModelKitTests.octest */ = {
+		78E75941144C89A300F6B5A0 /* ActiveModelKitFrameworkTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			name = ActiveModelKitTests.octest;
 			path = ActiveModelKitFrameworkTests.octest;
 			remoteRef = 78E75940144C89A300F6B5A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -464,10 +463,9 @@
 			remoteRef = 78E75956144C89A300F6B5A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		78E75959144C89A300F6B5A0 /* ActiveSupportKitTests.octest */ = {
+		78E75959144C89A300F6B5A0 /* ActiveSupportKitFrameworkTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			name = ActiveSupportKitTests.octest;
 			path = ActiveSupportKitFrameworkTests.octest;
 			remoteRef = 78E75958144C89A300F6B5A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -629,6 +627,7 @@
 		782B15EE144C88750016B106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 19.0;
 				FRAMEWORK_VERSION = A;
@@ -652,6 +651,7 @@
 		782B15EF144C88750016B106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 19.0;
 				FRAMEWORK_VERSION = A;
@@ -675,6 +675,7 @@
 		782B15F1144C88750016B106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RailsKit/RailsKit-Prefix.pch";
@@ -687,6 +688,7 @@
 		782B15F2144C88750016B106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RailsKit/RailsKit-Prefix.pch";
