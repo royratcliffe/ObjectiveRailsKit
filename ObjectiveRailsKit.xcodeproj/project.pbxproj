@@ -195,7 +195,7 @@
 				78E75929144C89A200F6B5A0 /* ActiveResourceKit.xcodeproj */,
 				78E75926144C89A200F6B5A0 /* ActiveModelKit.xcodeproj */,
 				78E7592C144C89A200F6B5A0 /* ActiveSupportKit.xcodeproj */,
-				782B15CC144C88750016B106 /* RailsKit */,
+				782B15CC144C88750016B106 /* ObjectiveRailsKit */,
 				782B15E2144C88750016B106 /* RailsKitTests */,
 				782B15C5144C88750016B106 /* Frameworks */,
 				782B15C4144C88750016B106 /* Products */,
@@ -231,13 +231,13 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		782B15CC144C88750016B106 /* RailsKit */ = {
+		782B15CC144C88750016B106 /* ObjectiveRailsKit */ = {
 			isa = PBXGroup;
 			children = (
 				78E75967144C89FF00F6B5A0 /* ObjectiveRailsKit.h */,
 				782B15CD144C88750016B106 /* Supporting Files */,
 			);
-			path = RailsKit;
+			path = ObjectiveRailsKit;
 			sourceTree = "<group>";
 		};
 		782B15CD144C88750016B106 /* Supporting Files */ = {
@@ -259,7 +259,8 @@
 				782B15E9144C88750016B106 /* ObjectiveRailsKitTests.m */,
 				782B15E3144C88750016B106 /* Supporting Files */,
 			);
-			path = RailsKitTests;
+			name = RailsKitTests;
+			path = ObjectiveRailsKitTests;
 			sourceTree = "<group>";
 		};
 		782B15E3144C88750016B106 /* Supporting Files */ = {
@@ -632,8 +633,8 @@
 				DYLIB_CURRENT_VERSION = 23.0;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RailsKit/ObjectiveRailsKit-Prefix.pch";
-				INFOPLIST_FILE = "RailsKit/ObjectiveRailsKit-Info.plist";
+				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveRailsKit/ObjectiveRailsKit-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				OTHER_LDFLAGS = (
 					"-sub_umbrella",
@@ -656,8 +657,8 @@
 				DYLIB_CURRENT_VERSION = 23.0;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RailsKit/ObjectiveRailsKit-Prefix.pch";
-				INFOPLIST_FILE = "RailsKit/ObjectiveRailsKit-Info.plist";
+				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveRailsKit/ObjectiveRailsKit-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				OTHER_LDFLAGS = (
 					"-sub_umbrella",
@@ -678,8 +679,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RailsKit/ObjectiveRailsKit-Prefix.pch";
-				INFOPLIST_FILE = "RailsKitTests/ObjectiveRailsKitTests-Info.plist";
+				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveRailsKitTests/ObjectiveRailsKitTests-Info.plist";
 				PRODUCT_NAME = ObjectiveRailsKitTests;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -691,8 +692,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RailsKit/ObjectiveRailsKit-Prefix.pch";
-				INFOPLIST_FILE = "RailsKitTests/ObjectiveRailsKitTests-Info.plist";
+				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveRailsKitTests/ObjectiveRailsKitTests-Info.plist";
 				PRODUCT_NAME = ObjectiveRailsKitTests;
 				WRAPPER_EXTENSION = octest;
 			};
