@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ObjectiveRailsKit' target in the 'ObjectiveRailsKit' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

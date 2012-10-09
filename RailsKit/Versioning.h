@@ -1,4 +1,4 @@
-/* RailsKit Versioning.h
+/* ObjectiveRailsKit Versioning.h
  *
  * Copyright © 2011, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -24,7 +24,7 @@
 
 #import <Foundation/Foundation.h>
 
-extern const unsigned char kRailsKitVersionString[];
-extern const double kRailsKitVersionNumber;
+extern const unsigned char kObjectiveRailsKitVersionString[];
+extern const double kObjectiveRailsKitVersionNumber;
 
-NSString *RailsKitVersionString(void);
+NSString *ObjectiveRailsKitVersionString(void);

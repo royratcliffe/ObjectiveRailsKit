@@ -1,4 +1,4 @@
-// RailsKitTests RailsKitTests.h
+// ObjectiveRailsKitTests ObjectiveRailsKitTests.h
 //
 // Copyright © 2011, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -24,6 +24,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface RailsKitTests : SenTestCase
+@interface ObjectiveRailsKitTests : SenTestCase
 
 @end

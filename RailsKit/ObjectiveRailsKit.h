@@ -1,4 +1,4 @@
-/* RailsKit RailsKit.h
+/* ObjectiveRailsKit ObjectiveRailsKit.h
  *
  * Copyright © 2011, Roy Ratcliffe, Pioneering Software, United Kingdom
  *

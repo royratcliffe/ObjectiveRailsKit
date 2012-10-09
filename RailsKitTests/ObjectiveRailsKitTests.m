@@ -1,4 +1,4 @@
-// RailsKitTests RailsKitTests.m
+// ObjectiveRailsKitTests ObjectiveRailsKitTests.m
 //
 // Copyright © 2011, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,11 +22,11 @@
 //
 //------------------------------------------------------------------------------
 
-#import "RailsKitTests.h"
+#import "ObjectiveRailsKitTests.h"
 
-#import <RailsKit/RailsKit.h>
+#import <ObjectiveRailsKit/ObjectiveRailsKit.h>
 
-@implementation RailsKitTests
+@implementation ObjectiveRailsKitTests
 
 - (void)testVersioning
 {
