@@ -196,7 +196,7 @@
 				78E75926144C89A200F6B5A0 /* ActiveModelKit.xcodeproj */,
 				78E7592C144C89A200F6B5A0 /* ActiveSupportKit.xcodeproj */,
 				782B15CC144C88750016B106 /* ObjectiveRailsKit */,
-				782B15E2144C88750016B106 /* RailsKitTests */,
+				782B15E2144C88750016B106 /* ObjectiveRailsKitTests */,
 				782B15C5144C88750016B106 /* Frameworks */,
 				782B15C4144C88750016B106 /* Products */,
 			);
@@ -252,14 +252,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		782B15E2144C88750016B106 /* RailsKitTests */ = {
+		782B15E2144C88750016B106 /* ObjectiveRailsKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				782B15E8144C88750016B106 /* ObjectiveRailsKitTests.h */,
 				782B15E9144C88750016B106 /* ObjectiveRailsKitTests.m */,
 				782B15E3144C88750016B106 /* Supporting Files */,
 			);
-			name = RailsKitTests;
 			path = ObjectiveRailsKitTests;
 			sourceTree = "<group>";
 		};
