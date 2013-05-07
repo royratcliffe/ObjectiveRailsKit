@@ -29,9 +29,9 @@ NSString *ObjectiveRailsKitVersionString()
 	static NSString *versionString;
 	if (versionString == nil)
 	{
-		versionString = [[[NSString stringWithCString:(const char *)kObjectiveRailsKitVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] retain];
+		versionString = [[NSString stringWithCString:(const char *)kObjectiveRailsKitVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 		atexit_b(^(void) {
-			[versionString release];
+			versionString = nil;
 		});
 	}
 	return versionString;
