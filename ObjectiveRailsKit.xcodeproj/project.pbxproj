@@ -199,7 +199,7 @@
 		782B15E9144C88750016B106 /* ObjectiveRailsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveRailsKitTests.m; sourceTree = "<group>"; };
 		7895315A1738E6B3006C30A4 /* libObjectiveRailsKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveRailsKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7895315B1738E6B3006C30A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		789531691738E6B4006C30A4 /* ObjectiveRailsKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveRailsKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		789531691738E6B4006C30A4 /* ObjectiveRailsKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ObjectiveRailsKitTests.octest; path = ObjectiveRailsKitLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7895316B1738E6B4006C30A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		78E75926144C89A200F6B5A0 /* ActiveModelKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveModelKit.xcodeproj; path = ActiveModelKit/ActiveModelKit.xcodeproj; sourceTree = "<group>"; };
 		78E75929144C89A200F6B5A0 /* ActiveResourceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveResourceKit.xcodeproj; path = ActiveResourceKit/ActiveResourceKit.xcodeproj; sourceTree = "<group>"; };
@@ -1009,6 +1009,7 @@
 				7895317C1738E6B4006C30A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7895317D1738E6B4006C30A4 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -1017,6 +1018,7 @@
 				7895317F1738E6B4006C30A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

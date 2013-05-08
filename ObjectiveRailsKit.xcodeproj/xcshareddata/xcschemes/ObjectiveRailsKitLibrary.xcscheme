@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "789531681738E6B4006C30A4"
-               BuildableName = "ObjectiveRailsKitTests.octest"
+               BuildableName = "ObjectiveRailsKitLibraryTests.octest"
                BlueprintName = "ObjectiveRailsKitLibraryTests"
                ReferencedContainer = "container:ObjectiveRailsKit.xcodeproj">
             </BuildableReference>
