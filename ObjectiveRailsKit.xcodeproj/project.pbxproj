@@ -14,6 +14,19 @@
 		782B15E1144C88750016B106 /* ObjectiveRailsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B15C3144C88750016B106 /* ObjectiveRailsKit.framework */; };
 		782B15E7144C88750016B106 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782B15E5144C88750016B106 /* InfoPlist.strings */; };
 		782B15EA144C88750016B106 /* ObjectiveRailsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15E9144C88750016B106 /* ObjectiveRailsKitTests.m */; };
+		7895315C1738E6B3006C30A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7895315B1738E6B3006C30A4 /* Foundation.framework */; };
+		7895316A1738E6B4006C30A4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B15DC144C88750016B106 /* SenTestingKit.framework */; };
+		7895316C1738E6B4006C30A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7895316B1738E6B4006C30A4 /* UIKit.framework */; };
+		7895316D1738E6B4006C30A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7895315B1738E6B3006C30A4 /* Foundation.framework */; };
+		789531701738E6B4006C30A4 /* libObjectiveRailsKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7895315A1738E6B3006C30A4 /* libObjectiveRailsKit.a */; };
+		789531801738E871006C30A4 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E75971144C8BF200F6B5A0 /* Versioning.m */; };
+		789531811738E877006C30A4 /* ObjectiveRailsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15E9144C88750016B106 /* ObjectiveRailsKitTests.m */; };
+		789531821738E882006C30A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782B15E5144C88750016B106 /* InfoPlist.strings */; };
+		789531891738E96E006C30A4 /* libActiveModelKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E75943144C89A300F6B5A0 /* libActiveModelKit.a */; };
+		7895318A1738E96E006C30A4 /* libActiveResourceKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7594F144C89A300F6B5A0 /* libActiveResourceKit.a */; };
+		7895318B1738E96E006C30A4 /* libActiveSupportKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7595B144C89A300F6B5A0 /* libActiveSupportKit.a */; };
+		7895318D1738EB95006C30A4 /* ObjectiveRailsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E75967144C89FF00F6B5A0 /* ObjectiveRailsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7895318E1738EB9E006C30A4 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E75970144C8BF200F6B5A0 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78E75964144C89BF00F6B5A0 /* ActiveModelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7593F144C89A300F6B5A0 /* ActiveModelKit.framework */; };
 		78E75965144C89BF00F6B5A0 /* ActiveResourceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7594B144C89A300F6B5A0 /* ActiveResourceKit.framework */; };
 		78E75966144C89BF00F6B5A0 /* ActiveSupportKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E75957144C89A300F6B5A0 /* ActiveSupportKit.framework */; };
@@ -32,6 +45,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 782B15C2144C88750016B106;
 			remoteInfo = RailsKit;
+		};
+		7895316E1738E6B4006C30A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782B15B9144C88740016B106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789531591738E6B3006C30A4;
+			remoteInfo = ObjectiveRailsKit;
+		};
+		789531831738E95B006C30A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E75929144C89A200F6B5A0 /* ActiveResourceKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7813AA991419270400523ECD;
+			remoteInfo = ActiveResourceKitLibrary;
+		};
+		789531851738E95B006C30A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E75926144C89A200F6B5A0 /* ActiveModelKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BF7F15141646A500DB0DEA;
+			remoteInfo = ActiveModelKitLibrary;
+		};
+		789531871738E95B006C30A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E7592C144C89A200F6B5A0 /* ActiveSupportKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78AFBD8E13EC587900BBFC62;
+			remoteInfo = ActiveSupportKitLibrary;
 		};
 		78E7593E144C89A300F6B5A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -156,6 +197,10 @@
 		782B15E6144C88750016B106 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		782B15E8144C88750016B106 /* ObjectiveRailsKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveRailsKitTests.h; sourceTree = "<group>"; };
 		782B15E9144C88750016B106 /* ObjectiveRailsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveRailsKitTests.m; sourceTree = "<group>"; };
+		7895315A1738E6B3006C30A4 /* libObjectiveRailsKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveRailsKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7895315B1738E6B3006C30A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		789531691738E6B4006C30A4 /* ObjectiveRailsKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ObjectiveRailsKitTests.octest; path = ObjectiveRailsKitLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7895316B1738E6B4006C30A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		78E75926144C89A200F6B5A0 /* ActiveModelKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveModelKit.xcodeproj; path = ActiveModelKit/ActiveModelKit.xcodeproj; sourceTree = "<group>"; };
 		78E75929144C89A200F6B5A0 /* ActiveResourceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveResourceKit.xcodeproj; path = ActiveResourceKit/ActiveResourceKit.xcodeproj; sourceTree = "<group>"; };
 		78E7592C144C89A200F6B5A0 /* ActiveSupportKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveSupportKit.xcodeproj; path = ActiveSupportKit/ActiveSupportKit.xcodeproj; sourceTree = "<group>"; };
@@ -186,6 +231,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		789531571738E6B3006C30A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789531891738E96E006C30A4 /* libActiveModelKit.a in Frameworks */,
+				7895318A1738E96E006C30A4 /* libActiveResourceKit.a in Frameworks */,
+				7895318B1738E96E006C30A4 /* libActiveSupportKit.a in Frameworks */,
+				7895315C1738E6B3006C30A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789531651738E6B4006C30A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7895316A1738E6B4006C30A4 /* SenTestingKit.framework in Frameworks */,
+				7895316C1738E6B4006C30A4 /* UIKit.framework in Frameworks */,
+				7895316D1738E6B4006C30A4 /* Foundation.framework in Frameworks */,
+				789531701738E6B4006C30A4 /* libObjectiveRailsKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -196,7 +263,7 @@
 				78E75926144C89A200F6B5A0 /* ActiveModelKit.xcodeproj */,
 				78E7592C144C89A200F6B5A0 /* ActiveSupportKit.xcodeproj */,
 				782B15CC144C88750016B106 /* ObjectiveRailsKit */,
-				782B15E2144C88750016B106 /* RailsKitTests */,
+				782B15E2144C88750016B106 /* ObjectiveRailsKitTests */,
 				782B15C5144C88750016B106 /* Frameworks */,
 				782B15C4144C88750016B106 /* Products */,
 			);
@@ -207,6 +274,8 @@
 			children = (
 				782B15C3144C88750016B106 /* ObjectiveRailsKit.framework */,
 				782B15DB144C88750016B106 /* ObjectiveRailsKitTests.octest */,
+				7895315A1738E6B3006C30A4 /* libObjectiveRailsKit.a */,
+				789531691738E6B4006C30A4 /* ObjectiveRailsKitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,6 +285,8 @@
 			children = (
 				782B15C6144C88750016B106 /* Cocoa.framework */,
 				782B15DC144C88750016B106 /* SenTestingKit.framework */,
+				7895315B1738E6B3006C30A4 /* Foundation.framework */,
+				7895316B1738E6B4006C30A4 /* UIKit.framework */,
 				782B15C8144C88750016B106 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -252,14 +323,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		782B15E2144C88750016B106 /* RailsKitTests */ = {
+		782B15E2144C88750016B106 /* ObjectiveRailsKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				782B15E8144C88750016B106 /* ObjectiveRailsKitTests.h */,
 				782B15E9144C88750016B106 /* ObjectiveRailsKitTests.m */,
 				782B15E3144C88750016B106 /* Supporting Files */,
 			);
-			name = RailsKitTests;
 			path = ObjectiveRailsKitTests;
 			sourceTree = "<group>";
 		};
@@ -317,12 +387,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7895318C1738EB6F006C30A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7895318D1738EB95006C30A4 /* ObjectiveRailsKit.h in Headers */,
+				7895318E1738EB9E006C30A4 /* Versioning.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		782B15C2144C88750016B106 /* ObjectiveRailsKit */ = {
+		782B15C2144C88750016B106 /* ObjectiveRailsKitFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 782B15ED144C88750016B106 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKit" */;
+			buildConfigurationList = 782B15ED144C88750016B106 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitFramework" */;
 			buildPhases = (
 				782B15BE144C88750016B106 /* Sources */,
 				782B15BF144C88750016B106 /* Frameworks */,
@@ -335,14 +414,14 @@
 			dependencies = (
 				78E75963144C89B500F6B5A0 /* PBXTargetDependency */,
 			);
-			name = ObjectiveRailsKit;
+			name = ObjectiveRailsKitFramework;
 			productName = RailsKit;
 			productReference = 782B15C3144C88750016B106 /* ObjectiveRailsKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		782B15DA144C88750016B106 /* ObjectiveRailsKitTests */ = {
+		782B15DA144C88750016B106 /* ObjectiveRailsKitFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 782B15F0144C88750016B106 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitTests" */;
+			buildConfigurationList = 782B15F0144C88750016B106 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitFrameworkTests" */;
 			buildPhases = (
 				782B15D6144C88750016B106 /* Sources */,
 				782B15D7144C88750016B106 /* Frameworks */,
@@ -354,9 +433,48 @@
 			dependencies = (
 				782B15E0144C88750016B106 /* PBXTargetDependency */,
 			);
-			name = ObjectiveRailsKitTests;
+			name = ObjectiveRailsKitFrameworkTests;
 			productName = RailsKitTests;
 			productReference = 782B15DB144C88750016B106 /* ObjectiveRailsKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		789531591738E6B3006C30A4 /* ObjectiveRailsKitLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7895317A1738E6B4006C30A4 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitLibrary" */;
+			buildPhases = (
+				789531561738E6B3006C30A4 /* Sources */,
+				789531571738E6B3006C30A4 /* Frameworks */,
+				7895318C1738EB6F006C30A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789531841738E95B006C30A4 /* PBXTargetDependency */,
+				789531861738E95B006C30A4 /* PBXTargetDependency */,
+				789531881738E95B006C30A4 /* PBXTargetDependency */,
+			);
+			name = ObjectiveRailsKitLibrary;
+			productName = ObjectiveRailsKit;
+			productReference = 7895315A1738E6B3006C30A4 /* libObjectiveRailsKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		789531681738E6B4006C30A4 /* ObjectiveRailsKitLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7895317D1738E6B4006C30A4 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitLibraryTests" */;
+			buildPhases = (
+				789531641738E6B4006C30A4 /* Sources */,
+				789531651738E6B4006C30A4 /* Frameworks */,
+				789531661738E6B4006C30A4 /* Resources */,
+				789531671738E6B4006C30A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7895316F1738E6B4006C30A4 /* PBXTargetDependency */,
+			);
+			name = ObjectiveRailsKitLibraryTests;
+			productName = ObjectiveRailsKitTests;
+			productReference = 789531691738E6B4006C30A4 /* ObjectiveRailsKitTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -394,8 +512,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				782B15C2144C88750016B106 /* ObjectiveRailsKit */,
-				782B15DA144C88750016B106 /* ObjectiveRailsKitTests */,
+				782B15C2144C88750016B106 /* ObjectiveRailsKitFramework */,
+				782B15DA144C88750016B106 /* ObjectiveRailsKitFrameworkTests */,
+				789531591738E6B3006C30A4 /* ObjectiveRailsKitLibrary */,
+				789531681738E6B4006C30A4 /* ObjectiveRailsKitLibraryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -504,10 +624,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		789531661738E6B4006C30A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789531821738E882006C30A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		782B15D9144C88750016B106 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		789531671738E6B4006C30A4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -539,13 +680,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		789531561738E6B3006C30A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789531801738E871006C30A4 /* Versioning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789531641738E6B4006C30A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789531811738E877006C30A4 /* ObjectiveRailsKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		782B15E0144C88750016B106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 782B15C2144C88750016B106 /* ObjectiveRailsKit */;
+			target = 782B15C2144C88750016B106 /* ObjectiveRailsKitFramework */;
 			targetProxy = 782B15DF144C88750016B106 /* PBXContainerItemProxy */;
+		};
+		7895316F1738E6B4006C30A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789531591738E6B3006C30A4 /* ObjectiveRailsKitLibrary */;
+			targetProxy = 7895316E1738E6B4006C30A4 /* PBXContainerItemProxy */;
+		};
+		789531841738E95B006C30A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ActiveResourceKitLibrary;
+			targetProxy = 789531831738E95B006C30A4 /* PBXContainerItemProxy */;
+		};
+		789531861738E95B006C30A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ActiveModelKitLibrary;
+			targetProxy = 789531851738E95B006C30A4 /* PBXContainerItemProxy */;
+		};
+		789531881738E95B006C30A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ActiveSupportKitLibrary;
+			targetProxy = 789531871738E95B006C30A4 /* PBXContainerItemProxy */;
 		};
 		78E75963144C89B500F6B5A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -584,7 +761,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 32.5;
+				CURRENT_PROJECT_VERSION = 44.10;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -618,7 +795,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 32.5;
+				CURRENT_PROJECT_VERSION = 44.10;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -638,9 +815,10 @@
 		782B15EE144C88750016B106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 32.5;
+				DYLIB_CURRENT_VERSION = 44.10;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
@@ -662,9 +840,10 @@
 		782B15EF144C88750016B106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 32.5;
+				DYLIB_CURRENT_VERSION = 44.10;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
@@ -686,6 +865,7 @@
 		782B15F1144C88750016B106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -699,12 +879,97 @@
 		782B15F2144C88750016B106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
 				INFOPLIST_FILE = "ObjectiveRailsKitTests/ObjectiveRailsKitTests-Info.plist";
 				PRODUCT_NAME = ObjectiveRailsKitTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		7895317B1738E6B4006C30A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				DSTROOT = /tmp/ObjectiveRailsKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ObjectiveRailsKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7895317C1738E6B4006C30A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				DSTROOT = /tmp/ObjectiveRailsKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ObjectiveRailsKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7895317E1738E6B4006C30A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveRailsKitTests/ObjectiveRailsKitTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7895317F1738E6B4006C30A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveRailsKit/ObjectiveRailsKit-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveRailsKitTests/ObjectiveRailsKitTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -721,7 +986,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		782B15ED144C88750016B106 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKit" */ = {
+		782B15ED144C88750016B106 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				782B15EE144C88750016B106 /* Debug */,
@@ -730,11 +995,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		782B15F0144C88750016B106 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitTests" */ = {
+		782B15F0144C88750016B106 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				782B15F1144C88750016B106 /* Debug */,
 				782B15F2144C88750016B106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7895317A1738E6B4006C30A4 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7895317B1738E6B4006C30A4 /* Debug */,
+				7895317C1738E6B4006C30A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7895317D1738E6B4006C30A4 /* Build configuration list for PBXNativeTarget "ObjectiveRailsKitLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7895317E1738E6B4006C30A4 /* Debug */,
+				7895317F1738E6B4006C30A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
