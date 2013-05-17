@@ -1,5 +1,7 @@
 # Objective Rails Kit
 
+[![Build Status](https://travis-ci.org/royratcliffe/ObjectiveRailsKit.png?branch=master)](https://travis-ci.org/royratcliffe/ObjectiveRailsKit)
+
 ObjectiveRailsKit is an umbrella framework. Under the shadow of the umbrella sit three Rails-like sub-frameworks:
 
 1. ActiveResourceKit

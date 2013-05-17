@@ -1,9 +1,9 @@
 [submodule "ActiveResourceKit"]
 	path = ActiveResourceKit
-	url = git@github.com:royratcliffe/ActiveResourceKit.git
+	url = git://github.com/royratcliffe/ActiveResourceKit.git
 [submodule "ActiveModelKit"]
 	path = ActiveModelKit
-	url = git@github.com:royratcliffe/ActiveModelKit.git
+	url = git://github.com/royratcliffe/ActiveModelKit.git
 [submodule "ActiveSupportKit"]
 	path = ActiveSupportKit
-	url = git@github.com:royratcliffe/ActiveSupportKit.git
+	url = git://github.com/royratcliffe/ActiveSupportKit.git
