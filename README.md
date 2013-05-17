@@ -45,10 +45,8 @@ itself as a submodule of another Git repository.
 ## iOS Support
 
 ObjectiveRailsKit is an umbrella framework. iOS does not as yet conveniently
-support frameworks. Hence ObjectiveRailsKit does not have an iOS target.
+support frameworks. Nevertheless ObjectiveRailsKit does build an iOS target.
 
-This does _not_ mean that you cannot use the kits on iOS. You can. The
-sub-frameworks include iOS targets for building static libraries for iOS
-platforms. However, you cannot, as yet, deploy them as a framework. Instead,
-you need to link against each sub-kit library one-by-one.
+The iOS target combines all three Active kits (support, model and resource)
+into a single static library, `libObjectiveRailsKit.a`.
 
