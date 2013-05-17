@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/royratcliffe/ObjectiveRailsKit.png?branch=master)](https://travis-ci.org/royratcliffe/ObjectiveRailsKit)
 
-ObjectiveRailsKit is an umbrella framework. Under the shadow of the umbrella sit three Rails-like sub-frameworks:
+ObjectiveRailsKit is an umbrella framework. Under the shadow of the umbrella
+sit three Rails-like sub-frameworks:
 
 1. ActiveResourceKit
 2. ActiveModelKit
@@ -33,15 +34,21 @@ They prefer that third-party developers deploy single stand-alone frameworks.
 
 ObjectiveRailsKit comprises three Git sub-modules.
 
-To build the kit, you need to check out those sub-frameworks from their Git repositories. You do this using:
+To build the kit, you need to check out those sub-frameworks from their Git
+repositories. You do this using:
 
 	git submodule update --init
 
-You need to run this Git command even when incorporating ObjectiveRailsKit itself as a submodule of another Git repository.
+You need to run this Git command even when incorporating ObjectiveRailsKit
+itself as a submodule of another Git repository.
 
 ## iOS Support
 
-ObjectiveRailsKit is an umbrella framework. iOS does not as yet conveniently support frameworks. Hence ObjectiveRailsKit does not have an iOS target.
+ObjectiveRailsKit is an umbrella framework. iOS does not as yet conveniently
+support frameworks. Hence ObjectiveRailsKit does not have an iOS target.
 
-This does _not_ mean that you cannot use the kits on iOS. You can. The sub-frameworks include iOS targets for building static libraries for iOS platforms. However, you cannot, as yet, deploy them as a framework. Instead, you need to link against each sub-kit library one-by-one.
+This does _not_ mean that you cannot use the kits on iOS. You can. The
+sub-frameworks include iOS targets for building static libraries for iOS
+platforms. However, you cannot, as yet, deploy them as a framework. Instead,
+you need to link against each sub-kit library one-by-one.
 
