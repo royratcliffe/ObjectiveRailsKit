@@ -38,6 +38,36 @@
                ReferencedContainer = "container:ObjectiveRailsKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7813AAA61419270400523ECD"
+               BuildableName = "ActiveResourceKitLibraryTests.octest"
+               BlueprintName = "ActiveResourceKitLibraryTests"
+               ReferencedContainer = "container:ActiveResourceKit/ActiveResourceKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "78BF7F23141646A500DB0DEA"
+               BuildableName = "ActiveModelKitLibraryTests.octest"
+               BlueprintName = "ActiveModelKitLibraryTests"
+               ReferencedContainer = "container:ActiveModelKit/ActiveModelKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "78AFBD9C13EC587900BBFC62"
+               BuildableName = "ActiveSupportKitLibraryTests.octest"
+               BlueprintName = "ActiveSupportKitLibraryTests"
+               ReferencedContainer = "container:ActiveSupportKit/ActiveSupportKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
