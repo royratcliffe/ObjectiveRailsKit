@@ -25,3 +25,5 @@
 #import <ActiveResourceKit/ActiveResourceKit.h>
 #import <ActiveModelKit/ActiveModelKit.h>
 #import <ActiveSupportKit/ActiveSupportKit.h>
+
+#import <ObjectiveRailsKit/Versioning.h>

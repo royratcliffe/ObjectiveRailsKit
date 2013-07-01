@@ -34,6 +34,7 @@
 	// against sub-frameworks within the umbrella framework, RailsKit. If all
 	// resolve at link-time then the sub-frameworks link successfully. These
 	// test should only fail therefore when the linker fails.
+	STAssertNotNil(ObjectiveRailsKitVersionString(), nil);
 	STAssertNotNil(ActiveResourceKitVersionString(), nil);
 	STAssertNotNil(ActiveModelKitVersionString(), nil);
 	STAssertNotNil(ActiveSupportKitVersionString(), nil);
