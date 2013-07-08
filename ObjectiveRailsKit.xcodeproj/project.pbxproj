@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782ABA0B178B3E7D008574C5 /* ObjectiveRailsKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78E75967144C89FF00F6B5A0 /* ObjectiveRailsKit.h */; };
+		782ABA0C178B3E7D008574C5 /* Versioning.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78E75970144C8BF200F6B5A0 /* Versioning.h */; };
 		782B15C7144C88750016B106 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B15C6144C88750016B106 /* Cocoa.framework */; };
 		782B15D1144C88750016B106 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782B15CF144C88750016B106 /* InfoPlist.strings */; };
 		782B15DD144C88750016B106 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B15DC144C88750016B106 /* SenTestingKit.framework */; };
@@ -25,8 +27,6 @@
 		789531891738E96E006C30A4 /* libActiveModelKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E75943144C89A300F6B5A0 /* libActiveModelKit.a */; };
 		7895318A1738E96E006C30A4 /* libActiveResourceKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7594F144C89A300F6B5A0 /* libActiveResourceKit.a */; };
 		7895318B1738E96E006C30A4 /* libActiveSupportKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7595B144C89A300F6B5A0 /* libActiveSupportKit.a */; };
-		7895318D1738EB95006C30A4 /* ObjectiveRailsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E75967144C89FF00F6B5A0 /* ObjectiveRailsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7895318E1738EB9E006C30A4 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E75970144C8BF200F6B5A0 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78E75964144C89BF00F6B5A0 /* ActiveModelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7593F144C89A300F6B5A0 /* ActiveModelKit.framework */; };
 		78E75965144C89BF00F6B5A0 /* ActiveResourceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E7594B144C89A300F6B5A0 /* ActiveResourceKit.framework */; };
 		78E75966144C89BF00F6B5A0 /* ActiveSupportKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E75957144C89A300F6B5A0 /* ActiveSupportKit.framework */; };
@@ -168,6 +168,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		782AB9A1178B34BB008574C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				782ABA0B178B3E7D008574C5 /* ObjectiveRailsKit.h in CopyFiles */,
+				782ABA0C178B3E7D008574C5 /* Versioning.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78E75969144C8AE300F6B5A0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,15 +398,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7895318C1738EB6F006C30A4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7895318D1738EB95006C30A4 /* ObjectiveRailsKit.h in Headers */,
-				7895318E1738EB9E006C30A4 /* Versioning.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -444,7 +446,7 @@
 			buildPhases = (
 				789531561738E6B3006C30A4 /* Sources */,
 				789531571738E6B3006C30A4 /* Frameworks */,
-				7895318C1738EB6F006C30A4 /* Headers */,
+				782AB9A1178B34BB008574C5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
